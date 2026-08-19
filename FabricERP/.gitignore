@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 打包产物（exe 不入库，代码才是命根子）
+build/
+dist/
+
+# 运行数据：数据库与备份绝不提交（含工厂真实账目）
+data/
+backups/
+
+# 旧发布包
+发布包/
+
+# 老账本目录缓存（含本机路径）
+.ledger_dir
+
+# 自动更新临时文件
+updates/
+update.bat
+
+# PyInstaller 生成的 spec（由 build_exe.py 重新生成）
+*.spec
+
+# IDE / 系统
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
